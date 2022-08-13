@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- INICIO: API DE GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <!-- FIN: API DE GOOGLE-->
+
+    <!-- INICIO: SCRIPT FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/3624f3baf8.js" crossorigin="anonymous"></script>
+    <!-- INICIO: SCRIPT FONT AWESOME -->
+
+    <!-- INICIO: MIS HOJAS DE ESTILO -->
+    <!-- <link rel="stylesheet" href="CSS/styles.min.css"> -->
+    <link rel="stylesheet" href="CSS/styles.min.css">
+    <!-- FIN: MIS HOJAS DE ESTILO -->
+
+    <!-- CONFIGURACION GENERAL -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madoushi</title>
+    <meta name="description" content="Portfolio de Madoushi" />
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li class="active"><span onclick="mostrarSeccionMenu('home', 'flex'); setActiveClassMenu(this);">Inicio</span></li>
+                <li><span onclick="mostrarSeccionMenu('projects', 'block'); setActiveClassMenu(this);">Proyectos</span></li>
+                <li><span onclick="mostrarSeccionMenu('skills', 'block'); setActiveClassMenu(this);">Habilidades</span></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section id="home" class="home">
+            <article>
+                <img src="Images/foto.jpg" alt="Foto" />
+                <div>
+                    <h2>Fabricio Gonzalez</h2>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/Madoushi666" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/meidoushi" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Madoushi666" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>Backend Developer</p>
+                </div>
+            </article>
+        </section>
+        <section id="projects" class="projects">
+            <div class="barra-titulo">
+                <h2>Proyectos</h2>
+            </div>
+            <article>
+                <div>
+                    <a href="#">
+                        <p>Web</p>
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <p>Database</p>
+                        <i class="fa-solid fa-database"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <p>API Rest</p>
+                        <i class="fa-solid fa-gear"></i>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <section id="skills" class="skills">
+            <div class="barra-titulo">
+                <h2>Habilidades</h2>
+            </div>
+            <article>
+                <div>
+                    <p>PRINCIPALES:</p>
+                </div>
+                <ul>
+                    <li>C# (.Net)</li>
+                    <li>SQL Server</li>
+                    <li>API Rest</li>
+                    <li>Postman</li>
+                    <li>Excel</li>
+                </ul>
+            </article>
+            <article>
+                <div>
+                    <p>SECUNDARIAS:</p>
+                </div>
+                <ul>
+                    <li>Xamarin</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Jira</li>
+                </ul>
+            </article>
+        </section>
+        <!-- <section id="contact" class="contact">
+            <div class="barra-titulo">
+                <h2>Contacto</h2>
+            </div>
+            <article>
+                <ul>
+                    <li>
+                        <a href="#CV" target="_blank">
+                            <i class="fa-solid fa-memo"></i>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="https://www.facebook.com/Madoushi666" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/meidoushi" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Madoushi666" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section> -->
+    </main>
+    <footer></footer>
+</body>
+<script src="Scripts/index.js"></script>
+
+</html>
